@@ -24,11 +24,5 @@ Result1<-aggregate(Production ~ Crop,CropProduction,FUN = sum)
 Result1<-Result1[order(Result1$Production,decreasing = TRUE),]
 #Listing top 10 most produced crops
 print (Result1[1:10,])
-#Result1 - sort in descending order by production, then plot pie chart
-pie(Result1[1:20]$Production,labels = Result1$Crop, radius = 5)
 
-#Jai - what you need to do:
-#Result1 has 105 crops and their total production
-#Have a suitable visualisation for top 30 or all the crops, whichever in terms of production
-#Any doubts, call me until 23:59 hrs tonight
-#Write that particular code in a separate R file so that we can push separately
+write.csv(ProdTrim, 'TrimmedAgro.csv')
