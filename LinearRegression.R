@@ -70,7 +70,7 @@ crop_production$Production_transform=production_transform
 # ==============================================================================#
 # Buliding a model:
 # Dividing the dataset into training and testing datsets.
-
+# We will perform linear model on the training sample.
 train_sample <- sample.int(n = nrow(crop_production), size = (0.7*nrow(crop_production)), replace = F)
 train_data <- crop_production[train_sample,]
 
