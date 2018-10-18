@@ -1,0 +1,15 @@
+Future Work:
+1) We look to gather/mine more data about crop prices, soil types, fertilizer to be used and their cost. Also we look to gather data sets which provide information about consumer demands, so that we can recommend farmers which crops to plant and how much land area to dedicate (i.e. according to consumer demands).
+2) We plan to try K-Means clustering on the crops considering variety of factors like soil grown in, Cost of production and other resources required. This will divide the crops into various categories and will help us recommend a particular category to the farmer (i.e. depending on his economic status and also consumer demand, and weather suitability)
+3) We want to test our model by applying other techniques like KNN, SVM, Decision Trees and some other clustering techniques and apply the best suited model by looking at various test parameters for comparison.
+4) The aim is to build an effective recommendation system, which can help farmers make better decisions.
+5) We intend to perform regressions of different types on our data in order to reduce the dimensionality of the dataset.
+6) Find appropriate correlations between the various attributes on the dataset and to be able to determine one with respect to the other.
+7) Draw a confusion matrix on the given data in order to check the accuracy of each of the model and find out the best model for our data.
+8) We look to divide the data into training and testing sets and apply on them each of the models and get the closest output.
+9) Graphically visualize the diifferent crops that span whole of India and to draw a heat map for the same and locate the best crop in the region highlighted.
+10) Predict the approximate money trade off between the farmer and the seller in order to suggest a better way of investing into a particular crop.
+11) Look at different crops, Areas and the production of different regions and suggesting the region where the farmer can get maximum production in a small area depending on the resources available.
+
+
+
