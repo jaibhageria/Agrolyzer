@@ -1,0 +1,10 @@
+﻿Crop,Min temp,Max temp,Avg temp,Min Rainfall,Max Rainfall,Avg Rainfall,Soil
+Rice,22,32,27,1500,3000,2250,"Clayey,Loamy"
+Wheat,15,26,20.5,750,1000,875,"Fertile Loamy,Clayey Loamy"
+Millets,27,32,29.5,500,1000,750,"Alluvial,Loamy"
+Grams,20,25,22.5,400,450,425,Loamy
+Sugarcane,21,27,24,750,1500,1125,Rich Loamy
+Cotton,21,30,25.5,500,1000,750,"Black,Alluvial,Red,Laterite"
+Oilseeds,20,30,25,500,750,625,"Sandy Loamy,Red,Yellow,Black"
+Tea,20,30,25,1500,3000,2250,Well drained Loamy
+Coffee,15,28,21.5,1500,2500,2000,Well drained Loamy
